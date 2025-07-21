@@ -4,19 +4,19 @@ This Django REST API allows you to upload an Excel or CSV file containing employ
 
 ---
 
-## 📦 Features
+##  Features
 
 * Upload employee data via Excel or CSV. Automatically create companies if they don't exist. One-to-many relationship between Company and Employee. Paginated GET endpoint for all employees. Uses `bulk_create()` for efficient database insertion
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 * Django, Django REST Framework, Pandas, SQLite (default, can be changed)
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone & Install
 
@@ -47,7 +47,7 @@ python manage.py runserver
 
 ---
 
-## 📤 API Endpoints
+##  API Endpoints
 
 ### `POST /api/upload-employees/`
 
